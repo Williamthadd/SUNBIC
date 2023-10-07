@@ -1,0 +1,190 @@
+body{
+    background-image: url('/Assets/background.jpg');
+}
+.header{
+    width:auto;
+    height: 80px;
+    padding: 10PX;
+    background-color:#7aa4b4;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 120px;
+}
+
+.ProfilePic2{
+    width: 45px;
+    margin-top: 0px;
+    float: right;
+}
+
+@media screen and (max-width: 384px) {
+    div.header{
+        width:auto;
+        padding: 10PX;
+        background-color:#7aa4b4;
+        border-radius: 10px;
+        height: 175px;
+    }
+}
+
+.navbar{
+    color: azure;
+    float: right;
+    margin-right: -45px;
+    margin-top: 45px;
+    font-size: 17px;
+}
+
+a.one:link{
+    color: azure;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.one:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a.one:hover{
+    color: azure;
+    background-color: #5f7a85;
+    border-radius: 10px;
+}
+
+a.two:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.two:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a.two:hover{
+    color: azure;
+    background-color: #5f7a85;
+    border-radius: 10px;
+}
+
+a.three:link{
+    color: azure;
+    background-color: #5f7a85;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a.three:visited{
+    color: azure;
+    background-color: #5f7a85;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 384px) {
+    div.navbar{
+        float:left;
+        margin-top: 2px;
+        color: azure;
+        margin-right: 500px;
+    }
+}
+
+.Judul{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Judul3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1250px;
+}
+
+.Isi{
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.Link{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(122, 164, 180, 0.212);
+    margin-left: -10px;
+    margin-bottom: 0px;
+    height: 40px;
+    padding: 1px;
+}
+
+.FooterText1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-family: monospace;
+    color: black;
+}
+
+.FooterText2{
+    float: right;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    font-family: monospace;
+    color: black;
+}
+
+@media screen and (max-width: 320px) {
+    div.FooterText1{
+        position: absolute;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 40px;
+        font-family: monospace;
+    }
+    div.FooterText2{
+        margin-bottom: -10px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 50px;
+        position: absolute;
+        font-family: monospace;
+        color: black;
+    }
+    div.footer{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(122, 164, 180, 0.212);
+        margin-left: -10px;
+        margin-bottom: 0px;
+        height: 80px;
+        padding: 1px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    div.Isi{
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 10px;
+    }
+
+}
+

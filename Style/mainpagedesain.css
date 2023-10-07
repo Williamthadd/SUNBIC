@@ -1,0 +1,953 @@
+body{
+    background-image: url('/Assets/background.jpg');
+}
+.header{
+    width:auto;
+    height: 80px;
+    padding: 10PX;
+    background-color:#7aa4b4;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 120px;
+}
+
+.ProfilePic2{
+    width: 45px;
+    margin-top: 0px;
+    float: right;
+}
+
+@media screen and (max-width: 384px) {
+    div.logo{
+      width: 50px;
+    }
+    div.header{
+        width:auto;
+        padding: 10PX;
+        background-color:#7aa4b4;
+        border-radius: 10px;
+        height: 175px;
+    }
+}
+
+.navbar{
+    color: azure;
+    float: right;
+    margin-right: -45px;
+    margin-top: 45px;
+    font-size: 17px;
+}
+
+a.one:link{
+    color: azure;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.one:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a.one:hover{
+    color: azure;
+    background-color: #5f7a85;
+    border-radius: 10px;
+}
+
+a.two:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.two:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a.two:hover{
+    color: azure;
+    background-color: #5f7a85;
+    border-radius: 10px;
+}
+
+a.three:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.three:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a.three:hover{
+    color: azure;
+    background-color: #5f7a85;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.img{
+    max-width: 330px;
+    width: 99%;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.ImageSizing{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.mid{
+    transition: .5s ease;
+    opacity: 0;
+    margin-top: -170px;
+    margin-left: 170px;
+    margin-right: 0px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img:hover .ImageSizing{
+    opacity: 0.3;
+}
+
+.img:hover .mid{
+    opacity: 1;
+}
+  
+.tulisan{
+    background-color: #8eb9d7;
+    color: azure;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 10px;
+}
+
+a.four:link{
+    color:azure;
+    text-decoration: none;
+}
+
+a.four:visited{
+    color:azure;
+    text-decoration: none;
+}
+
+a.four:hover{
+    color: azure;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 384px) {
+    div.navbar{
+        float:left;
+        margin-top: 2px;
+        color: azure;
+        margin-right: 500px;
+    }
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(122, 164, 180, 0.212);
+    margin-left: -10px;
+    height: 40px;
+    padding: 1px;
+}
+
+.FooterText1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-family: monospace;
+    color: black;
+}
+
+.FooterText2{
+    float: right;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    font-family: monospace;
+    color: black;
+}
+
+.BoxProfile{
+    width: 500px;
+    height: 395px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(127, 225, 255, 0.068);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.TitleProfile{
+    text-align: center;
+    margin-top: -30px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ProfilePic1{
+    width: 120px;
+}
+
+.InfoProfile{
+    margin-top: -7px;
+    font-size: 16px;
+    margin-left: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ProfileLengkap{
+    float: right;
+    margin-right: 5px;
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 895px) {
+    div.BoxProfile{
+        width:auto;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    div.ProfileLengkap{
+        float: right;
+        margin-right: 10px;
+        margin-bottom: auto;
+        margin-top: -30px;
+        font-size: 12px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+.BoxList{
+    width: auto;
+    height: 395px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #7fe1ff11;
+    margin-top: -397px;
+    margin-left: 560px;
+    margin-right: 15px;
+}
+
+.TitleList{
+    text-align: center;
+    margin-top: -30px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.selanjutnya{
+    width: 435px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(188, 201, 205, 0.068);
+    margin-top: -25px;
+    margin-left: 5px;
+}
+
+.telat{
+    width: 435px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(188, 201, 205, 0.068);
+    margin-top: -352px;
+    margin-left: auto;
+    margin-right: 5px;
+} 
+
+.TitleTugas1{
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.TitleTugas2{
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ScrollTugas1{
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 435px;
+    height: 273px;
+    margin-left: 0px;
+}
+
+.ScrollTugas2{
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 435px;
+    height: 273px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.BubleTugas1{
+    width:auto;
+    height: 40px;
+    padding: 5PX;
+    background-color:rgba(169, 169, 169, 0.359);
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.ListTugas1{
+    font-size: 16px;
+    float: left;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.Deadline{
+    font-size: 15px;
+    float: right;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+
+.BoxKelas{
+    width: 300px;
+    height: 395px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(127, 225, 255, 0.068);
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.ImgDosen1{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 65px;
+    margin-left: -130px;
+}
+
+.TitleKelas1{
+    font-size: 18px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.TitleKelas2{
+    font-size: 18px;
+    float: left;
+    margin-left: -132px;
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.InfoKelas{
+    font-size: 16px;
+    margin-left: 95px;
+    margin-top: -70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.LogoInfo{
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.InfoKelas1{
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 52px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.LogoWaktu{
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.InfoKelas2{
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.LogoSesi{
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.InfoKelas3{
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.LogoLokasi{
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.InfoKelas4{
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.KunjungKelas{
+    float: right;
+    margin-right: 5px;
+    margin-top: -20px;
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.BoxForum{
+    width: auto;
+    height: 395px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(127, 225, 255, 0.068);
+    margin-top: 40px;
+    margin-left: 360px;
+    margin-right: 37%;
+}
+
+.ProfileDosen{
+    width: 50px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.NamaForum{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.jam{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: -168px;
+    margin-top: 10px;
+}
+
+.jam1{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: -120px;
+    margin-top: 10px;
+}
+
+.JamUmum{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: -65px;
+    margin-top: 10px
+}
+
+.JamUmum1{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: -95px;
+    margin-top: 10px
+}
+
+.JamUmum2{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: -50px;
+    margin-top: 10px
+}
+
+.IsiForum{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    margin-right: 5px;
+    margin-top: 0px;
+}
+
+a.five:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.five:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a.five:hover{
+    color: rgb(255, 255, 255);
+}
+
+.BubleTugas1:hover{
+    background-color: #a8bac2;
+}
+
+.BubleDosen:hover{
+    background-color: #a8bac2;
+}
+
+.BoxBerita{
+    width: 500px;
+    height: 395px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #7fe1ff11;
+    margin-top: -397px;
+    margin-right: 15px;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.TitleDosen{
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: 10px;
+    margin-top: -35px;
+}
+
+.TitleUmum{
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.ScrollDosen{
+    overflow: scroll;
+    width: 98%;
+    height: 130px;
+    margin-left: 5px;
+    overflow-x: hidden;
+}
+
+.ScrollUmum{
+    overflow: scroll;
+    width: 98%;
+    height: 130px;
+    margin-left: 5px;
+    overflow-x: hidden;
+}
+
+.BubleDosen{
+    width:auto;
+    height: 60px;
+    padding: 5PX;
+    background-color:rgba(169, 169, 169, 0.359);
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.ListDosen{
+    font-size: 15px;
+    float: left;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 1495px) {
+    div.BoxList{
+        width: auto;
+        height: 395px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+    }
+    div.selanjutnya{
+        width: auto;
+        height: 170px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(188, 201, 205, 0.068);
+        margin-top: -30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    div.telat{
+        width: auto;
+        height: 170px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(188, 201, 205, 0.068);
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    div.ScrollTugas1{
+        width: 99%;
+        height: 116px;
+        margin-top: -20px;
+        margin-left: 0px;
+        margin-right: -70px;
+    }
+    div.ScrollTugas2{
+        width: 99%;
+        height: 116px;
+        margin-top: -20px;
+        margin-left: 0px;
+        margin-right: -70px;
+    }
+    div.BubleTugas1{
+        width:auto;
+        height: 30px;
+        padding: 5PX;
+        background-color:rgba(169, 169, 169, 0.359);
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    div.ScrollDosen{
+        width: 98%;
+        height: 130px;
+        margin-left: 5px;
+    }
+    
+    div.ScrollUmum{
+        width: 98%;
+        height: 130px;
+        margin-left: 5px;
+    }
+
+    div.ListTugas1{
+        font-size: 16px;
+        float: left;
+        margin-left: 5px;
+        margin-top: -10px;
+    }
+    
+    div.Deadline{
+        font-size: 15px;
+        float: right;
+        margin-top: -5px;
+        margin-right: 5px;
+    }
+
+    div.BubleDosen{
+        width:auto;
+        height: 60%;
+        padding: 5PX;
+        background-color:rgba(169, 169, 169, 0.359);
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    div.BubleTugas1{
+        width:auto;
+        height: 50%;
+        padding: 5PX;
+        background-color:rgba(169, 169, 169, 0.359);
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    div.Deadline{
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: 15px;
+        
+    }
+}
+
+@media screen and (max-width: 1490px){
+    div.BoxBerita{
+        width: auto;
+        height: 395px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: -397px;
+        margin-right: auto;
+        float: right;
+        margin-bottom: 50px;
+    }
+    div.BoxForum{
+        width: 300px;
+        height: 395px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    div.BoxKelas{
+        width:400px;
+        height: 395px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: 15px;
+        margin-left: 15px;
+        
+    }
+    div.BoxForum{
+        width: 400px;
+        height: 395px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: 15px;
+        float: right;
+        margin-right: 15px;
+    }
+    div.BoxBerita{
+        width:97%;
+        height: 395px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    div.footer{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(122, 164, 180, 0.212);
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 800px;
+        height: 40px;
+        padding: 1px;
+    }
+    
+    div.FooterText1{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        font-family: monospace;
+        color: black;
+    }
+    
+    div.FooterText2{
+        float: right;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+        font-family: monospace;
+        color: black;
+    }
+}
+
+
+@media screen and (max-width: 895px) {
+    div.BoxList{
+        width: auto;
+        height: 395px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    div.selanjutnya{
+        width: auto;
+        height: 170px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(188, 201, 205, 0.068);
+        margin-top: -30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    div.telat{
+        width: auto;
+        height: 170px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(188, 201, 205, 0.068);
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }    
+    div.BoxKelas{
+        width: 97%;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    div.BoxForum{
+        width:97%;
+        height: 395px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        float: left;
+    }
+    div.BoxBerita{
+        width:97%;
+        height: 395px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 15px;
+        background-color: rgba(127, 225, 255, 0.068);
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    div.footer{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(122, 164, 180, 0.212);
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 1200px;
+        height: 40px;
+        padding: 1px;
+    }
+    
+    div.FooterText1{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        font-family: monospace;
+        color: black;
+    }
+    
+    div.FooterText2{
+        float: right;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+        font-family: monospace;
+        color: black;
+    }
+    
+}
+
+@media screen and (max-width: 955px){
+    div.BubleTugas1{
+        width:auto;
+        height: 50%;
+        padding: 5PX;
+        background-color:rgba(169, 169, 169, 0.359);
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    div.Deadline{
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: 15px;
+        
+    }
+}
+
+@media screen and (max-width:380px){
+    div.mid{
+        transition: .5s ease;
+        opacity: 0;
+        margin-top: -50%;
+        margin-right: 45%;
+        margin-left: 45%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    div.FooterText1{
+        position: absolute;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 40px;
+        font-family: monospace;
+    }
+    div.FooterText2{
+        margin-bottom: -10px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 50px;
+        position: absolute;
+        font-family: monospace;
+        color: black;
+    }
+    div.footer{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(122, 164, 180, 0.212);
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 1250px;
+        margin-bottom: -100px;
+        height: 80px;
+        padding: 1px;
+    }
+
+}
+
